@@ -33,6 +33,7 @@ coding conventions. This repo centralizes the answers:
 | [`architecture/`](architecture/) | `visubobby/kafka/docs/` | Authored overview + adapted design/KRaft/log/message-format docs |
 | [`conventions/`](conventions/) | derived from `checkstyle/` + `gradle/` | Human-readable Java/Scala coding standards, module layering, and build conventions |
 | [`playbooks/`](playbooks/) | references `bin/*.sh`, `config/*`, `docker/*.py`, `release/` | Step-by-step guides for dev setup, KRaft cluster setup, topics, Connect, Streams reset, Docker, and releases |
+| [`cab/`](cab/) | derived from `message/README.md`, `MetadataVersion.java`, `InterfaceStability.java`, `gradle/dependencies.gradle`, module layout | Change Advisory Board risk-assessment kit for reviewing PRs (risk taxonomy, module criticality, protocol/rollback/deployment rules, review checklist) |
 
 Each subdirectory has its own `README.md` explaining its purpose and how Devin should use the
 files within it.
